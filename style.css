@@ -1,0 +1,47 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    background: rgb(180,58,103);
+background: background: rgb(195,193,34);
+background: radial-gradient(circle, rgba(195,193,34,1) 9%, rgba(50,198,184,1) 38%, rgba(86,183,139,1) 46%, rgba(144,158,65,1) 59%, rgba(50,198,89,1) 94%);
+    
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content:space-evenly;
+align-items: center;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    height:200px;
+   
+}
+
+main.display{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main p {
+    margin:20px 0;
+    text-align: center;
+    color: white;
+    background-color:orangered;
+    font-size: 22px;
+    border-radius : 5px;
+
+}
+
+#input-string, #submit-button{
+    height:30px;
+    border-radius : 10px;
+    padding:0 20px;
+}
